@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "d7_t01",
+    "citation_support": [
+      true
+    ],
+    "reason": " Trang PDF 15: mô tả Single-mode fiber (SMF) dùng lõi mảnh, nguồn sáng laser, truyền xa. Đáp án trùng gold và citation chứa đúng evidence.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7_t02",
+    "citation_support": [],
+    "reason": " Final context có câu Uses 128-bit addresses tại trang PDF 20; Agent vẫn abstain sau 2 lượt search (search_limit). Lỗi ở chính sách dừng/điều phối, không phải thiếu context.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7_t03",
+    "citation_support": [
+      true
+    ],
+    "reason": " Trang PDF 27: WPA3 dùng SAE (Simultaneous Authentication of Equals) thay PSK; answer và citation trùng evidence.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7_t04",
+    "citation_support": [
+      true
+    ],
+    "reason": " Trang PDF 37: Remote Access VPN giúp cá nhân kết nối an toàn vào mạng riêng từ xa; answer/citation được hỗ trợ.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7_t05",
+    "citation_support": [
+      true
+    ],
+    "reason": " Trang PDF 40: network hardening là tăng cường bảo vệ để giảm lỗ hổng và ngăn tấn công; answer/citation được hỗ trợ.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d7_u_test01",
+    "citation_support": [],
+    "reason": " Đối chiếu text của 40 trang PDF vật lý 7-46; chỉ đề cập Wireshark, retransmission về mặt khái niệm ở trang 43-46, không có kết quả đo TCP retransmission %, không có live experiment. Đã kiểm tra trang render 42-46.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7_u_test02",
+    "citation_support": [],
+    "reason": "Đối chiếu text của 40 trang PDF vật lý 7-46: không xuất hiện SNMP hay community string, không có production switch config. Đã xem các trang có ảnh raster (10-12, 14-15), chỉ là minh họa thiết bị. Không đủ evidence cho community string cụ thể.",
+    "abstention_correct": true
+  }
+]

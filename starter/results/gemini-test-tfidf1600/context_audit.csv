@@ -1,0 +1,6 @@
+﻿query_id,split,method,agent_status,context_chars,context_grade_0_1_2,review_reason,supporting_chunk_ids
+d7_t01,test,tfidf,answered,1430,2,"Trang PDF 15: mô tả Single-mode fiber (SMF) dùng lõi mảnh, nguồn sáng laser, truyền xa. Đáp án trùng gold và citation chứa đúng evidence.",Basics_Networking-p15-paragraph-500-cd4a8c21d8c1c9ac9f7f
+d7_t02,test,tfidf,abstain,1325,0,"Final context chỉ có đoạn IPv4 32-bit, không có câu IPv6 128-bit. Lượt search thứ hai đã trả chunk IPv6 128-bit nhưng pack_context giữ các chunk cũ và bỏ chunk này. Agent abstain khi search_limit.",
+d7_t03,test,tfidf,answered,1388,2,Trang PDF 27: WPA3 dùng SAE (Simultaneous Authentication of Equals) thay PSK; answer và citation trùng evidence.,Basics_Networking-p27-paragraph-500-90c861f5f08dc7f66dca
+d7_t04,test,tfidf,answered,1170,2,Trang PDF 37: Remote Access VPN giúp cá nhân kết nối an toàn vào mạng riêng từ xa; answer/citation được hỗ trợ.,Basics_Networking-p37-paragraph-500-a57534292617b69bbddb
+d7_t05,test,tfidf,answered,1576,2,Trang PDF 40: network hardening là tăng cường bảo vệ để giảm lỗ hổng và ngăn tấn công; answer/citation được hỗ trợ.,Basics_Networking-p40-paragraph-500-6028fcf64b609e89dee1

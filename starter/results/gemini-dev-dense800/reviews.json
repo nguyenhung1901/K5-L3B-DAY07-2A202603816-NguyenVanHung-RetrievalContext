@@ -1,0 +1,124 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches cited LAN coverage statement on page 7.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer and citation both state that P2P has no dedicated server and peers act as client/server.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited page 9 directly says star devices connect to a switch or hub.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN: answerable MAC address. Dense retrieved module_06 page 30 instead of gold module_02 page 11; needed MAC evidence not selected in context. Third LLM action requested further search, hit search_limit.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN: second retrieval returns exact gold chunk p12 mentioning SSIDs, WPA2/WPA3, roaming, but final context remains p26 SSID chunk only; greedy pack_context preserves early chunk.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN: target Layer 4 Transport/TCP/UDP p17 not in searched top-3. Repeated dense queries retrieve irrelevant page 16, 38, 18. No sufficient context.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p17 explicitly maps the TCP/IP Application layer to OSI layers 5, 6 and 7.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p22 defines CIDR prefix length as the number of network bits.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN: exact gold /26 on page 23 is in both retrieval result lists, yet context retains earlier page 22 only (greedy pack_context).",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p26 explicitly identifies 802.11ax Wi-Fi 6/6E and OFDMA/BSS coloring.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p31 directly states IEEE 802.1Q tagging for VLANs.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p32 explicitly names switch virtual interfaces (SVIs) for L3 switch routing.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p33 explicitly gives OSPF metric as cost.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited p34 explicitly lists MX as mail server for a domain.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN: p35 chunk in final context lists Discover, Offer, Request but not Acknowledge, which is in another p35 chunk not retrieved/packed. Multi-chunk evidence failure.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7_u_dev01",
+    "citation_support": [],
+    "reason": "PENDING USER CONFIRMATION: text extraction of all 40 indexed PDF pages mentions packet loss as a generic ping metric but no measured office Wi-Fi packet-loss percentage or live test.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7_u_dev02",
+    "citation_support": [],
+    "reason": "PENDING USER CONFIRMATION: text extraction of all 40 indexed PDF pages mentions WPA3 and password best practices but no configured example WPA3 password or wireless lab password.",
+    "abstention_correct": true
+  }
+]

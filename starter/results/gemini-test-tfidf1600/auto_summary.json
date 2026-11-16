@@ -1,0 +1,21 @@
+{
+  "split": "test",
+  "method": "tfidf",
+  "model": "gemini-3.5-flash-lite",
+  "n_cases": 7,
+  "answerable": 5,
+  "unanswerable": 2,
+  "status_counts": {
+    "answered": 4,
+    "abstain": 3,
+    "error": 0
+  },
+  "search_calls_total": 10,
+  "search_calls_mean": 1.4285714285714286,
+  "model_calls_total": 17,
+  "median_end_to_end_ms": 3198.8037999999506,
+  "prompt_tokens_total": 13264,
+  "completion_tokens_total": 715,
+  "service_cost_usd": null,
+  "note": "Prices and account tier not known; not 0 USD. QA-assisted review is provisional until student validates."
+}

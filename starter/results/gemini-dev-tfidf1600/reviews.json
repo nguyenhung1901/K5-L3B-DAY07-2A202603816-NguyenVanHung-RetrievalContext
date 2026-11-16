@@ -1,0 +1,132 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct LAN coverage: the cited page 7 chunk explicitly states small area such as home, office, school or building.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct P2P: cited page 8 explains equal-status peers, client/server roles, and no dedicated server.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct star topology: cited page 9 states central switch or hub.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct MAC address: cited page 11 chunk in Module 2 explicitly says switches use MAC addresses to forward frames.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct SSID and WPA2/WPA3 for network identification and wireless security. Cited page 12 supports both; answer does not mention roaming, which is supplementary to the asked aspects.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct OSI Transport layer 4 and TCP/UDP: cited page 17 lists segmentation, flow control, error handling and both protocols.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct OSI layers 5, 6, 7: cited page 17 directly states TCP/IP Application merges them.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer correctly interprets /24 as a count of network-prefix bits, citing page 22. It does not explicitly say 24 bits beyond the /24 notation; instructor can decide whether a more explicit wording is preferred.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct /26 subnet prefix when splitting /24 into four subnets; cited page 23 states new mask /26.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct 802.11ax Wi-Fi 6/6E, OFDMA and BSS coloring per cited page 26.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct VLAN 802.1Q tagging; cited page 31.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct switch virtual interface (SVI) for Layer 3 switch inter-VLAN routing; cited page 32.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct OSPF cost metric per cited page 33.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct MX record for mail server per cited page 34.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "reason": "FALSE ABSTAIN. The answer is Discover, Offer, Request, Acknowledge. The first three are in page 35 chunk ending ...ffdc6d04a55181856e1f; Acknowledge is in the adjacent page 35 chunk ending ...1c03f017a32cedc22534, which the agent did not retrieve. Agent ended on search_limit.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d7_u_dev01",
+    "citation_support": [],
+    "reason": "PENDING MANUAL CORPUS ABSENCE REVIEW. Agent abstained after two searches; question asks for exact measured office Wi-Fi packet loss not present in returned context.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d7_u_dev02",
+    "citation_support": [],
+    "reason": "PENDING MANUAL CORPUS ABSENCE REVIEW. Agent abstained after two searches; question asks for an exact WPA3 lab password not present in returned context.",
+    "abstention_correct": true
+  }
+]

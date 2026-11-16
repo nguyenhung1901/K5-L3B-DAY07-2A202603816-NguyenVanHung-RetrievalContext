@@ -1,0 +1,27 @@
+{
+  "n_cases_seen": 17,
+  "answerable_count": 15,
+  "unanswerable_count": 2,
+  "status_counts": {
+    "answered": 14,
+    "abstain": 3
+  },
+  "successful_queries": 17,
+  "queries_with_retrieval_tool": 17,
+  "search_call_distribution": {
+    "1": 14,
+    "2": 3
+  },
+  "mean_search_calls": 1.1764705882352942,
+  "median_end_to_end_ms": 5234.121800000139,
+  "prompt_tokens_total": 26684,
+  "completion_tokens_total": 2056,
+  "service_cost_usd_recorded": null,
+  "service_cost_note": "Gemini billing cost not estimated; use token totals and current tier pricing.",
+  "not_graded": [
+    "grounded_answer",
+    "citation_validity",
+    "abstention_correct",
+    "false_abstention_correct"
+  ]
+}

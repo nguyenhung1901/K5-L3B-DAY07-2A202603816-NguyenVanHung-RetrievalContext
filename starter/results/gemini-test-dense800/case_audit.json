@@ -1,0 +1,80 @@
+[
+  {
+    "id": "d7_t01",
+    "status": "answered",
+    "answer": "Single-mode fiber (SMF) is described as using a thin core and laser light for long distances [Basics_Networking-p15-paragraph-500-cd4a8c21d8c1c9ac9f7f].",
+    "citations": [
+      "Basics_Networking-p15-paragraph-500-cd4a8c21d8c1c9ac9f7f"
+    ],
+    "answer_grade_draft": 2,
+    "context_grade_draft": 2,
+    "abstention_correct_draft": null,
+    "reason": "Trang PDF 15: mô tả Single-mode fiber (SMF) dùng lõi mảnh, nguồn sáng laser, truyền xa. Đáp án trùng gold và citation chứa đúng evidence."
+  },
+  {
+    "id": "d7_t02",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade_draft": 0,
+    "context_grade_draft": 2,
+    "abstention_correct_draft": null,
+    "reason": "Final context có câu Uses 128-bit addresses tại trang PDF 20; Agent vẫn abstain sau 2 lượt search (search_limit). Lỗi ở chính sách dừng/điều phối, không phải thiếu context."
+  },
+  {
+    "id": "d7_t03",
+    "status": "answered",
+    "answer": "SAE (Simultaneous Authentication of Equals) replaces PSK in WPA3 [Basics_Networking-p27-paragraph-500-90c861f5f08dc7f66dca]",
+    "citations": [
+      "Basics_Networking-p27-paragraph-500-90c861f5f08dc7f66dca"
+    ],
+    "answer_grade_draft": 2,
+    "context_grade_draft": 2,
+    "abstention_correct_draft": null,
+    "reason": "Trang PDF 27: WPA3 dùng SAE (Simultaneous Authentication of Equals) thay PSK; answer và citation trùng evidence."
+  },
+  {
+    "id": "d7_t04",
+    "status": "answered",
+    "answer": "A Remote Access VPN allows individual users to securely connect to a private network from anywhere [Basics_Networking-p37-paragraph-500-a57534292617b69bbddb].",
+    "citations": [
+      "Basics_Networking-p37-paragraph-500-a57534292617b69bbddb"
+    ],
+    "answer_grade_draft": 2,
+    "context_grade_draft": 2,
+    "abstention_correct_draft": null,
+    "reason": "Trang PDF 37: Remote Access VPN giúp cá nhân kết nối an toàn vào mạng riêng từ xa; answer/citation được hỗ trợ."
+  },
+  {
+    "id": "d7_t05",
+    "status": "answered",
+    "answer": "Network hardening refers to strengthening systems to reduce vulnerabilities and prevent attacks [Basics_Networking-p40-paragraph-500-6028fcf64b609e89dee1].",
+    "citations": [
+      "Basics_Networking-p40-paragraph-500-6028fcf64b609e89dee1"
+    ],
+    "answer_grade_draft": 2,
+    "context_grade_draft": 2,
+    "abstention_correct_draft": null,
+    "reason": "Trang PDF 40: network hardening là tăng cường bảo vệ để giảm lỗ hổng và ngăn tấn công; answer/citation được hỗ trợ."
+  },
+  {
+    "id": "d7_u_test01",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade_draft": null,
+    "context_grade_draft": null,
+    "abstention_correct_draft": true,
+    "reason": "Đối chiếu text của 40 trang PDF vật lý 7-46; chỉ đề cập Wireshark, retransmission về mặt khái niệm ở trang 43-46, không có kết quả đo TCP retransmission %, không có live experiment. Đã kiểm tra trang render 42-46."
+  },
+  {
+    "id": "d7_u_test02",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "answer_grade_draft": null,
+    "context_grade_draft": null,
+    "abstention_correct_draft": true,
+    "reason": "Đối chiếu text của 40 trang PDF vật lý 7-46: không xuất hiện SNMP hay community string, không có production switch config. Đã xem các trang có ảnh raster (10-12, 14-15), chỉ là minh họa thiết bị. Không đủ evidence cho community string cụ thể."
+  }
+]
