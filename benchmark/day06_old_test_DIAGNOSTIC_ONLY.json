@@ -1,0 +1,63 @@
+[
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "metadata_scope",
+    "question": "In Module 7 (Network Services), how does PAT allow multiple internal devices to share one public IP address?",
+    "expected_answer": "By using different port numbers.",
+    "gold_source_id": "Basics_Networking",
+    "gold_page": 36,
+    "evidence_quote": "PAT (Port Address Translation) Also known as NAT overload, PAT allows many internal devices to share one public IP by using different port numbers.",
+    "filter": {
+      "section": "module_07"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "metadata_scope",
+    "question": "In Module 8 (Network Security), how do IDS and IPS differ in their ability to block malicious traffic?",
+    "expected_answer": "IDS detects and alerts but does not block traffic; IPS can actively block or mitigate malicious traffic.",
+    "gold_source_id": "Basics_Networking",
+    "gold_page": 39,
+    "evidence_quote": "Alerts administrators when an attack or anomaly is detected • Does not block traffic—detects only IPS (Intrusion Prevention System) • Actively blocks or mitigates malicious traffic",
+    "filter": {
+      "section": "module_08"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "direct",
+    "question": "According to the malware list in Module 8, how do worms spread?",
+    "expected_answer": "Worms self-replicate across networks.",
+    "gold_source_id": "Basics_Networking",
+    "gold_page": 39,
+    "evidence_quote": "Worms – self-replicating across networks",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which type of message does ping send, and which network conditions can it help identify?",
+    "expected_answer": "Ping sends ICMP Echo Request messages; it can help identify reachability, packet loss, and latency.",
+    "gold_source_id": "Basics_Networking",
+    "gold_page": 42,
+    "evidence_quote": "Sends ICMP Echo Request messages and listens for replies. • Helps identify: o Network reachability o Packet loss o Latency (round-trip time)",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata_scope",
+    "question": "In Module 9 (Network Monitoring), which Wireshark display filter selects packets associated with IP address 192.168.1.10?",
+    "expected_answer": "ip.addr == 192.168.1.10",
+    "gold_source_id": "Basics_Networking",
+    "gold_page": 44,
+    "evidence_quote": "Show packets from a specific IP: ip.addr == 192.168.1.10",
+    "filter": {
+      "section": "module_09"
+    }
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "According to the document, what geographical area does a LAN typically cover?",
+    "expected_answer": "A small area such as a home, office, school, or building.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 7,
+        "evidence": "It covers a small area such as a home, office, school, or building."
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Does a peer-to-peer network require a dedicated server? Explain why or why not.",
+    "expected_answer": "No. All devices have equal status, and each can act as both a client and a server.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 8,
+        "evidence": "All devices have equal status; each can act as both client and server. • No dedicated server."
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "In a star topology, what central device are all other devices connected to?",
+    "expected_answer": "A central switch or hub.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 9,
+        "evidence": "Star Topology • All devices connect to a central switch or hub."
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In Module 2 (Network Hardware), what type of address does a switch use to forward frames to the correct device?",
+    "expected_answer": "MAC addresses.",
+    "filter": {
+      "section": "module_02"
+    },
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 11,
+        "evidence": "Uses MAC addresses to forward frames to the correct device"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Which features related to network identification and Wi-Fi security are supported by an access point?",
+    "expected_answer": "SSIDs and WPA2/WPA3 encryption; the document also mentions roaming.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 12,
+        "evidence": "Supports features like SSIDs, encryption (WPA2/WPA3), and roaming"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which OSI layer handles segmentation, flow control, and error handling? Name the two protocols listed.",
+    "expected_answer": "Layer 4 (Transport); TCP and UDP.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 17,
+        "evidence": "Layer 4 — Transport • Provides end-to-end communication • Handles segmentation, flow control, error handling • Protocols: TCP, UDP"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Which OSI layers are combined into the Application layer of the four-layer TCP/IP model?",
+    "expected_answer": "OSI layers 5, 6, and 7.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 17,
+        "evidence": "Layer 4 — Application • Combines OSI layers 5, 6, and 7"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What does the /24 indicate in the CIDR example 192.168.1.0/24?",
+    "expected_answer": "24 bits are used for the network portion of the IP address.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 22,
+        "evidence": "CIDR notation expresses the IP address and the number of bits used for the network portion. Examples CIDR: • 192.168.1.0/24"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "When dividing 192.168.1.0/24 into four subnets, which new prefix length does the document use?",
+    "expected_answer": "/26.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 23,
+        "evidence": "Step 1: Need 4 subnets → requires 2 bits (2² = 4) Step 2: New mask = /26"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which Wi-Fi standard in the document uses OFDMA and BSS coloring to reduce interference and congestion?",
+    "expected_answer": "802.11ax (Wi-Fi 6/6E).",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 26,
+        "evidence": "802.11ax (Wi-Fi 6 / 6E) • Frequency: 2.4 GHz, 5 GHz, 6 GHz (6E) • Max speed: multi-gigabit • Improves speed, efficiency, and performance in crowded environments. • OFDMA and BSS coloring reduce interference"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In Module 6 (Routing and Switching), which tagging standard is used for VLANs?",
+    "expected_answer": "IEEE 802.1Q.",
+    "filter": {
+      "section": "module_06"
+    },
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 31,
+        "evidence": "VLANs use IEEE 802.1Q tagging."
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What type of interface can a Layer 3 switch use for inter-VLAN routing?",
+    "expected_answer": "SVI (Switch Virtual Interface).",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 32,
+        "evidence": "A Layer 3 switch performs routing internally. • Uses SVIs (Switch Virtual Interfaces)."
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "According to the Dynamic Routing section, which metric does OSPF use?",
+    "expected_answer": "Cost.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 33,
+        "evidence": "2. OSPF (Open Shortest Path First) • Link-state protocol • Uses cost as metric"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Which DNS record type is described as specifying the mail server for a domain?",
+    "expected_answer": "MX.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 34,
+        "evidence": "MX: Mail server for the domain"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What are the four stages of the DHCP DORA process, in the correct order?",
+    "expected_answer": "Discover → Offer → Request → Acknowledge.",
+    "filter": null,
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 35,
+        "evidence": "DHCP Process (DORA) 1. Discover – Client broadcasts a request 2. Offer – DHCP server offers an IP 3. Request – Client requests the offered address 4. Acknowledge – Server confirms the lease"
+      }
+    ],
+    "source_benchmark": "Day06 dev; previously used during Day06 experimentation"
+  },
+  {
+    "id": "d7_u_dev01",
+    "split": "dev",
+    "question": "What exact packet-loss percentage was measured in the document for the author's office Wi-Fi network during a live test?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "Insufficient evidence in the indexed Modules 1–9.",
+    "absence_reason": "Module 9 describes ping, packet loss and latency conceptually but does not provide a measured loss percentage for an author office Wi-Fi test.",
+    "absence_audit": "Search the entire 40-page indexed corpus for measured packet-loss figures; manually review the troubleshooting and monitoring modules."
+  },
+  {
+    "id": "d7_u_dev02",
+    "split": "dev",
+    "question": "Which specific WPA3 password was configured on the example access point during the document's wireless lab?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "Insufficient evidence in the indexed Modules 1–9.",
+    "absence_reason": "Module 5 explains WPA2/WPA3, security modes and troubleshooting, not a specific configured access-point password.",
+    "absence_audit": "Inspect all Module 5 pages and search the 40-page corpus for access-point configuration passwords."
+  },
+  {
+    "id": "d7_t01",
+    "split": "test",
+    "question": "According to Module 2, which fiber-optic type is described as using a thin core and laser light for long distances?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 15,
+        "evidence": "Single-mode fiber (SMF) – long distance, thin core, laser light"
+      }
+    ],
+    "expected_answer": "Single-mode fiber (SMF).",
+    "construction_note": "New Day07 held-out item; exact excerpt checked in Day06 strategy B chunk. Never tune on test."
+  },
+  {
+    "id": "d7_t02",
+    "split": "test",
+    "question": "How many bits are in an IPv6 address, according to Module 4?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 20,
+        "evidence": "Uses 128-bit addresses"
+      }
+    ],
+    "expected_answer": "128 bits.",
+    "construction_note": "New Day07 held-out item; exact excerpt checked in Day06 strategy B chunk. Never tune on test."
+  },
+  {
+    "id": "d7_t03",
+    "split": "test",
+    "question": "In Module 5, which authentication mechanism replaces PSK in WPA3?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 27,
+        "evidence": "SAE (Simultaneous Authentication of Equals) replaces PSK"
+      }
+    ],
+    "expected_answer": "SAE (Simultaneous Authentication of Equals).",
+    "construction_note": "New Day07 held-out item; exact excerpt checked in Day06 strategy B chunk. Never tune on test.",
+    "filter": {
+      "section": "module_05"
+    }
+  },
+  {
+    "id": "d7_t04",
+    "split": "test",
+    "question": "What does a Remote Access VPN allow individual users to do, according to Module 7?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 37,
+        "evidence": "Allows individual users to securely connect to a private network from anywhere."
+      }
+    ],
+    "expected_answer": "Securely connect to a private network from anywhere.",
+    "construction_note": "New Day07 held-out item; exact excerpt checked in Day06 strategy B chunk. Never tune on test."
+  },
+  {
+    "id": "d7_t05",
+    "split": "test",
+    "question": "What is the purpose of network hardening, as defined in Module 8?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "Basics_Networking",
+        "page": 40,
+        "evidence": "Network hardening refers to strengthening systems to reduce vulnerabilities and prevent attacks."
+      }
+    ],
+    "expected_answer": "Strengthen systems to reduce vulnerabilities and prevent attacks.",
+    "construction_note": "New Day07 held-out item; exact excerpt checked in Day06 strategy B chunk. Never tune on test.",
+    "filter": {
+      "section": "module_08"
+    }
+  },
+  {
+    "id": "d7_u_test01",
+    "split": "test",
+    "question": "What was the measured TCP retransmission percentage during the document's live Wireshark troubleshooting experiment?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "Insufficient evidence in the indexed Modules 1–9.",
+    "absence_reason": "The source discusses retransmissions and Wireshark but does not report a numeric result from a live experiment.",
+    "absence_audit": "Inspect monitoring/troubleshooting pages 42–46 and scan all 40 indexed pages for retransmission percentages or lab measurement tables."
+  },
+  {
+    "id": "d7_u_test02",
+    "split": "test",
+    "question": "What exact SNMP community string was configured on the production switch described in the document?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "Insufficient evidence in the indexed Modules 1–9.",
+    "absence_reason": "The source surveys networking concepts and devices; no production switch configuration or specified SNMP community credential is provided.",
+    "absence_audit": "Inspect switching and monitoring modules, plus search the complete indexed corpus for SNMP community strings and production switch configuration."
+  }
+]
