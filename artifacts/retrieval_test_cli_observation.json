@@ -1,0 +1,26 @@
+{
+  "artifact_type": "reported_cli_observation_not_source_summary",
+  "note": "Numbers recorded from the users PowerShell stdout; verify from local summary.json.",
+  "benchmark_split": "test",
+  "answerable_n": 5,
+  "unanswerable_excluded": 2,
+  "retrieval_test": {
+    "dense800": {
+      "method": "dense",
+      "budget_chars": 800,
+      "hit1": 5,
+      "hit3": 5,
+      "context_hit": 5,
+      "n": 5
+    },
+    "tfidf1600": {
+      "method": "tfidf",
+      "budget_chars": 1600,
+      "hit1": 3,
+      "hit3": 5,
+      "context_hit": 4,
+      "n": 5
+    }
+  },
+  "is_independent_agent_grading": false
+}

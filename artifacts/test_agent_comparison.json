@@ -1,0 +1,131 @@
+{
+  "status": "AI-assisted audited draft; student final sign-off required",
+  "configs": [
+    {
+      "method": "dense",
+      "config": "dense800",
+      "metrics": {
+        "split": "test",
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5,
+          "mean": 1.6
+        },
+        "citation_validity": {
+          "n": 4,
+          "N": 4
+        },
+        "answer_citation_coverage": {
+          "n": 4,
+          "N": 4
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 5
+        }
+      },
+      "context_grade_distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "context_mean": 2.0,
+      "auto_summary": {
+        "split": "test",
+        "method": "dense",
+        "model": "gemini-3.5-flash-lite",
+        "n_cases": 7,
+        "answerable": 5,
+        "unanswerable": 2,
+        "status_counts": {
+          "answered": 4,
+          "abstain": 3,
+          "error": 0
+        },
+        "search_calls_total": 12,
+        "search_calls_mean": 1.7142857142857142,
+        "model_calls_total": 19,
+        "median_end_to_end_ms": 19567.79689999894,
+        "prompt_tokens_total": 11255,
+        "completion_tokens_total": 755,
+        "service_cost_usd": null,
+        "note": "Prices and account tier not known; not 0 USD. QA-assisted review is provisional until student validates."
+      }
+    },
+    {
+      "method": "tfidf",
+      "config": "tfidf1600",
+      "metrics": {
+        "split": "test",
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5,
+          "mean": 1.6
+        },
+        "citation_validity": {
+          "n": 4,
+          "N": 4
+        },
+        "answer_citation_coverage": {
+          "n": 4,
+          "N": 4
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 5
+        }
+      },
+      "context_grade_distribution": {
+        "0": 1,
+        "1": 0,
+        "2": 4
+      },
+      "context_mean": 1.6,
+      "auto_summary": {
+        "split": "test",
+        "method": "tfidf",
+        "model": "gemini-3.5-flash-lite",
+        "n_cases": 7,
+        "answerable": 5,
+        "unanswerable": 2,
+        "status_counts": {
+          "answered": 4,
+          "abstain": 3,
+          "error": 0
+        },
+        "search_calls_total": 10,
+        "search_calls_mean": 1.4285714285714286,
+        "model_calls_total": 17,
+        "median_end_to_end_ms": 3198.8037999999506,
+        "prompt_tokens_total": 13264,
+        "completion_tokens_total": 715,
+        "service_cost_usd": null,
+        "note": "Prices and account tier not known; not 0 USD. QA-assisted review is provisional until student validates."
+      }
+    }
+  ]
+}

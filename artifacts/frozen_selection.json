@@ -1,0 +1,15 @@
+{
+  "method": "tfidf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "top_k": 3,
+  "candidate_k": 12,
+  "budget": 1600,
+  "max_searches": 2,
+  "use_query_filter": false,
+  "baseline_method": "dense",
+  "baseline_budget": 800,
+  "benchmark_sha256": "79fd71b13eee1c3cd507b6c7ab98732d121d6cbbed73408c97e53d6ce835600a",
+  "frozen_at_utc": "2026-11-16T05:25:35.927660+00:00",
+  "selection_note": "Selected from Day07 dev results; test must not be used for tuning."
+}

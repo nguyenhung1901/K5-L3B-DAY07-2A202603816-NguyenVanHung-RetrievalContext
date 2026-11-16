@@ -1,0 +1,246 @@
+{
+  "audit_date": "2026-11-16",
+  "input_benchmark_file": "benchmark/questions.json (user-supplied questions(2).json)",
+  "benchmark_sha256": "79fd71b13eee1c3cd507b6c7ab98732d121d6cbbed73408c97e53d6ce835600a",
+  "input_pdf_file": "Basics_Networking.pdf (user-supplied Basics_Networking(1).pdf)",
+  "pdf_sha256": "108140d34d891b58afaf2f6138bc4799432e369e5f65ccd191c8430c75cdee59",
+  "pdf_total_physical_pages": 65,
+  "indexed_physical_pages": {
+    "from": 7,
+    "to": 46,
+    "count": 40
+  },
+  "benchmark_counts": {
+    "dev_answerable": 15,
+    "dev_unanswerable": 2,
+    "test_answerable": 5,
+    "test_unanswerable": 2
+  },
+  "gold_checks": [
+    {
+      "query_id": "q01",
+      "split": "dev",
+      "physical_pdf_page": 7,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q02",
+      "split": "dev",
+      "physical_pdf_page": 8,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q03",
+      "split": "dev",
+      "physical_pdf_page": 9,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q04",
+      "split": "dev",
+      "physical_pdf_page": 11,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q05",
+      "split": "dev",
+      "physical_pdf_page": 12,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q06",
+      "split": "dev",
+      "physical_pdf_page": 17,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q07",
+      "split": "dev",
+      "physical_pdf_page": 17,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q08",
+      "split": "dev",
+      "physical_pdf_page": 22,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q09",
+      "split": "dev",
+      "physical_pdf_page": 23,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q10",
+      "split": "dev",
+      "physical_pdf_page": 26,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q11",
+      "split": "dev",
+      "physical_pdf_page": 31,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q12",
+      "split": "dev",
+      "physical_pdf_page": 32,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q13",
+      "split": "dev",
+      "physical_pdf_page": 33,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q14",
+      "split": "dev",
+      "physical_pdf_page": 34,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "q15",
+      "split": "dev",
+      "physical_pdf_page": 35,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "d7_t01",
+      "split": "test",
+      "physical_pdf_page": 15,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "d7_t02",
+      "split": "test",
+      "physical_pdf_page": 20,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "d7_t03",
+      "split": "test",
+      "physical_pdf_page": 27,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "d7_t04",
+      "split": "test",
+      "physical_pdf_page": 37,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    },
+    {
+      "query_id": "d7_t05",
+      "split": "test",
+      "physical_pdf_page": 40,
+      "source_id": "Basics_Networking",
+      "normalized_evidence_substring_present_in_pdf": true
+    }
+  ],
+  "gold_matched_count": 20,
+  "gold_total": 20,
+  "term_occurrence_physical_pages": {
+    "packet_loss": [
+      42
+    ],
+    "wireshark": [
+      43,
+      46
+    ],
+    "retransmission": [
+      44,
+      46
+    ],
+    "wpa3": [
+      12,
+      27,
+      28,
+      41
+    ],
+    "password": [
+      28,
+      39,
+      40,
+      41
+    ],
+    "snmp": [],
+    "community_string": []
+  },
+  "unanswerable_evidence_assessment": [
+    {
+      "query_id": "d7_u_dev01",
+      "split": "dev",
+      "searched_topic": "Tỷ lệ packet loss đo tại Wi-Fi văn phòng tác giả trong live test",
+      "positive_related_pages": [
+        42
+      ],
+      "basis": "Trang 42 giải thích ping, packet loss và latency, không công bố tỷ lệ đo của mạng Wi-Fi văn phòng cụ thể. Không thấy bảng/số liệu live-test tương ứng ở các trang còn lại.",
+      "sufficient_direct_answer_in_indexed_pdf_found": false,
+      "assessment": "unanswerable supported by PDF inspection"
+    },
+    {
+      "query_id": "d7_u_dev02",
+      "split": "dev",
+      "searched_topic": "Mật khẩu WPA3 cụ thể cấu hình trong wireless lab",
+      "positive_related_pages": [
+        12,
+        27,
+        28,
+        41
+      ],
+      "basis": "Trang 12 mô tả AP; 27 giải thích WPA3; 28 đề cập sai mật khẩu; 41 khuyến nghị mật khẩu mạnh. Không đưa mật khẩu của một AP cụ thể hay bài lab WPA3.",
+      "sufficient_direct_answer_in_indexed_pdf_found": false,
+      "assessment": "unanswerable supported by PDF inspection"
+    },
+    {
+      "query_id": "d7_u_test01",
+      "split": "test",
+      "searched_topic": "Phần trăm TCP retransmission đo trong live Wireshark troubleshooting experiment",
+      "positive_related_pages": [
+        43,
+        44,
+        46
+      ],
+      "basis": "Trang 43 nói về Wireshark; 44 và 46 nói tới retransmission như hiện tượng/công cụ kiểm tra. Không có kết quả đo tỷ lệ phần trăm từ live experiment.",
+      "sufficient_direct_answer_in_indexed_pdf_found": false,
+      "assessment": "unanswerable supported by PDF inspection"
+    },
+    {
+      "query_id": "d7_u_test02",
+      "split": "test",
+      "searched_topic": "SNMP community string của production switch",
+      "positive_related_pages": [
+        11,
+        30,
+        31,
+        45
+      ],
+      "basis": "Có giải thích switch/MAC/VLAN và kiểm tra thiết bị nhưng không có nội dung SNMP, community string, cấu hình production switch hoặc một chuỗi cấu hình cụ thể trong phạm vi chỉ mục.",
+      "sufficient_direct_answer_in_indexed_pdf_found": false,
+      "assessment": "unanswerable supported by PDF inspection"
+    }
+  ],
+  "methodology": "Extract text across PDF physical pages 7-46; compare each of 20 gold excerpts to the corresponding physical page after Unicode/punctuation/whitespace normalization; search complete extracted corpus for topical words; visually inspect all 40 rendered pages (contact sheets), with attention to tables and figures in relevant modules. Source-absence conclusions are evidence-based audits, not mathematical proofs of absence.",
+  "student_manual_signoff_completed": false
+}
