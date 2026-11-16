@@ -1,0 +1,71 @@
+{
+  "source_id": "Basics_Networking",
+  "page_numbering": "PDF physical page number (1-based); PDF page 7 is printed textbook page 1",
+  "field": "section",
+  "value_source": "Actual Module headings and Table of Contents in the uploaded PDF, verified against page boundaries.",
+  "sections": [
+    {
+      "section": "module_01",
+      "module_number": 1,
+      "title": "Introduction to Networking",
+      "first_pdf_page": 7,
+      "last_pdf_page": 9
+    },
+    {
+      "section": "module_02",
+      "module_number": 2,
+      "title": "Network Hardware",
+      "first_pdf_page": 10,
+      "last_pdf_page": 15
+    },
+    {
+      "section": "module_03",
+      "module_number": 3,
+      "title": "OSI and TCP/IP Models",
+      "first_pdf_page": 16,
+      "last_pdf_page": 19
+    },
+    {
+      "section": "module_04",
+      "module_number": 4,
+      "title": "IP Addressing and Subnetting",
+      "first_pdf_page": 20,
+      "last_pdf_page": 24
+    },
+    {
+      "section": "module_05",
+      "module_number": 5,
+      "title": "Wireless Networking",
+      "first_pdf_page": 25,
+      "last_pdf_page": 29
+    },
+    {
+      "section": "module_06",
+      "module_number": 6,
+      "title": "Routing and Switching Fundamentals",
+      "first_pdf_page": 30,
+      "last_pdf_page": 33
+    },
+    {
+      "section": "module_07",
+      "module_number": 7,
+      "title": "Network Services",
+      "first_pdf_page": 34,
+      "last_pdf_page": 37
+    },
+    {
+      "section": "module_08",
+      "module_number": 8,
+      "title": "Network Security",
+      "first_pdf_page": 38,
+      "last_pdf_page": 41
+    },
+    {
+      "section": "module_09",
+      "module_number": 9,
+      "title": "Network Monitoring and Troubleshooting",
+      "first_pdf_page": 42,
+      "last_pdf_page": 46
+    }
+  ]
+}
